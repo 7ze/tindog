@@ -21,7 +21,7 @@ p{
     background-color: #fff;
 }
 
-/* Headings */
+/* HEADINGS */
 .main-heading{
     font-size: 3.5rem;
     line-height: 1.5;
@@ -31,7 +31,7 @@ p{
     line-height: 1.5;
 }
 
-/* Containers - Basic Padding */
+/* CONTAINERS - Basic Padding */
 .container-fluid{
     padding: 7% 15%; 
 }
@@ -199,6 +199,8 @@ p{
         position: static;
         transform: rotate(0);
         margin: 0;
+        width: 80%;
+        padding-top: 10%;
     }
 }
 

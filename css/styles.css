@@ -177,6 +177,12 @@ p{
     color: black;
 }
 
+.credits{
+    font-size: 0.7rem;
+}
+
+/* MEDIA QUERIES */
+
 @media (max-width:1100px){
     #title .container-fluid{
         text-align: center;

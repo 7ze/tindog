@@ -11,6 +11,16 @@ p{
     color: #8f8f8f;
 }
 
+/* THEME */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
 /* Headings */
 .main-heading{
     font-size: 3.5rem;
@@ -27,13 +37,8 @@ p{
 }
 
 /* TITLE SECTION */
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: left;
-}
-
 #title .container-fluid{
+    text-align: left;
     padding: 3% 15% 7%;
 }
 
@@ -72,7 +77,6 @@ p{
 
 /* FEATURES SECTION */
 #features{
-    background-color: #fff;
     position: relative;
 }
 
@@ -100,7 +104,6 @@ p{
 /* TESTIMONIAL SECTION */
 #testimonials{
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-text{
@@ -143,7 +146,7 @@ p{
 }
 
 @media (max-width:1100px){
-    #title{
+    #title .container-fluid{
         text-align: center;
     }
     h1{
@@ -177,13 +180,8 @@ p{
     }
 }
 
+
 /* CTA SECTION*/
-
-#cta{
-    background-color: #ff4c68;
-    color: white;
-}
-
 #cta .container-fluid{
     padding-bottom: 3%; 
 }
